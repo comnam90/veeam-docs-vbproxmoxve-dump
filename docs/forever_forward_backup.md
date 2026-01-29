@@ -15,6 +15,6 @@ To create a backup chain for a VM protected by a backup job that is not configur
 1. During the first (full) backup session, Veeam Backup & Replication copies the full VM image and creates a full backup file in the backup repository. The full backup file becomes a starting point in the backup chain.
 2. During subsequent backup sessions, Veeam Backup & Replication copies only those data blocks that have changed since the previous backup session, and stores these data blocks to incremental backup files in the backup repository. The content of each incremental backup file depends on the content of the full backup file and the preceding incremental backup files in the backup chain.
 
-![Forever Forward Incremental Backup](images/vplugin_backup_chain.png)
+![Forever Forward Incremental Backup](images/vplugin_backup_chain.webp)
 
 
