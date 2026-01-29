@@ -15,14 +15,15 @@ Markdown conversions of Veeam Plug-in for Proxmox VE documentation, optimized fo
 |                  |                                                      |
 | ---------------- | ---------------------------------------------------- |
 | **Source**       | https://helpcenter.veeam.com/docs/vbproxmoxve/userguide/ |
-| **Last Updated** | -                                                    |
+| **Last Updated** | 2026-01-29                                           |
 | **Maintainer**   | [@comnam90](https://github.com/comnam90)             |
 
 ## Structure
 
 ```
 docs/
-└── userguide/    # User Guide (111 pages)
+├── *.md          # User Guide (111 pages)
+└── images/       # Screenshots (94 WebP images)
 ```
 
 ## Usage with Context7
