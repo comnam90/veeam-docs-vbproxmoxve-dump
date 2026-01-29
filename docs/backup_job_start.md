@@ -1,0 +1,25 @@
+---
+title: "Starting and Stopping Backup Jobs"
+product: "vbproxmoxve"
+doc_type: "userguide"
+source_url: "https://helpcenter.veeam.com/docs/vbproxmoxve/userguide/backup_job_start.html"
+last_updated: "10/27/2025"
+product_version: "13.3.0.237"
+---
+
+# Starting and Stopping Backup Jobs
+
+
+You can start a backup job manually, for example, if you want to create an additional restore point and do not want to modify the configured job schedule. You can also stop a backup job manually if processing of an Proxmox VE VM is about to take too long, and you do not want the job to have an impact on the production environment during business hours. When you stop a running job, Veeam Backup & Replication creates a new restore point only for those VMs that have already been processed by the time you stop the job.
+
+To start or stop a backup job, do the following:
+
+1. Open the Home view.
+2. In the inventory pane, select Jobs.
+3. In the working area, right-click the necessary job and select Start or Stop.
+
+Alternatively, select the job and click Start or Stop on the ribbon.
+
+[![Starting and Stopping Backup Jobs](images/pve_backup_job_start.webp)](images/pve_backup_job_start.webp "Starting and Stopping Backup Jobs")
+
+

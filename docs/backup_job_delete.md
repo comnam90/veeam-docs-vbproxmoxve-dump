@@ -1,0 +1,25 @@
+---
+title: "Deleting Backup Jobs"
+product: "vbproxmoxve"
+doc_type: "userguide"
+source_url: "https://helpcenter.veeam.com/docs/vbproxmoxve/userguide/backup_job_delete.html"
+last_updated: "10/27/2025"
+product_version: "13.3.0.237"
+---
+
+# Deleting Backup Jobs
+
+
+You can permanently delete a backup job from the Veeam Backup & Replication configuration database if you no longer need it. When you delete a job, backups created by this job are displayed under the Backups > Disk (Orphaned) node in the Home view of the Veeam Backup & Replication console. If you want to delete backup files as well, follow the instructions provided in section [Deleting Backups](backups_delete.md).
+
+To delete a backup job, do the following:
+
+1. Open the Home view.
+2. In the inventory pane, select Jobs.
+3. In the working area, right-click the necessary job and select Delete.
+
+Alternatively, select the job and click Delete on the ribbon.
+
+[![Deleting Backup Jobs](images/pve_backup_job_delete.webp)](images/pve_backup_job_delete.webp "Deleting Backup Jobs")
+
+
